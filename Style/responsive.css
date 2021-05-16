@@ -1,0 +1,148 @@
+/*====================Navigation================*/
+#navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar-logo{
+    display: none;
+}
+
+#nav-list ul{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+#nav-list ul li{
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+}
+
+#nav-list ul li a{
+    display: flex;
+    flex-direction: column;
+}
+
+#NavbarButtons{
+    position: absolute;
+    display: none;
+}
+
+#NavbarButtons button{
+    font-size: 10px;
+    font-weight: 200;
+    padding: 8px 15px;
+}
+
+.burger{
+    display: block;
+}
+
+.h-navbar-resp{
+    height: 55px;
+}
+
+.v-class-resp{
+    opacity: 0;
+}
+
+/*==============Home==============*/
+#home{
+    height: 300px;
+    padding: 5px 50px;
+}
+
+#home-logo{
+    margin: 10px 20px
+}
+
+#home-logo img {
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.h-Primary{
+    font-size: 22px;
+}
+.h-Secondary{
+    font-size: 17px;
+}
+
+.btn{
+    font-size: 10px;
+    font-weight: 200;
+    padding: 10px 15px;
+}
+
+/*==============End Home==========*/
+
+/*=============About=============*/
+
+#about-graphic img{
+    margin: 15px 25px 14px 25px;
+    padding: 10px;
+    height: 150px;
+    width: 180px;
+}
+
+.contain h4{
+    font-size: 20px;
+    margin: 8px;
+    padding: 5px;
+}
+
+.contain{
+    font-size: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/*=============End About===========*/
+
+/*=============Blog============*/
+#blog{
+    height: auto;
+}
+
+#blog-contain{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    font-size: 10px; 
+ }
+ /*===========End Blog==========*/
+
+ /*===========Contact===========*/
+ #contact{
+    height: auto;
+    text-align: center;
+    padding: 70px 100px;
+}
+
+#contact-heading{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.contact-form-box input{
+    font-size: 0.7rem;
+    font-weight: 200;
+}
+
+.form-control {
+    font-size: 0.7rem;
+    font-weight: 200;
+}
+
+.button-form{
+    font-size: 10px;
+    font-weight: 200;
+    padding: 10px 15px;
+}
+/*============End Contact===========*/
